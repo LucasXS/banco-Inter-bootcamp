@@ -1,0 +1,47 @@
+body {
+    background-color:#CCCCFF;
+    max-width: 1920px;
+    max-height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    background: #6495ED;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+#quem-somos {
+    background:#800080;
+    color: white;
+    
+}
+
+.rounded-circle{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.margin {
+    padding-bottom: 50px;
+}
+
+#parceiros {
+    background:#FF0000 ;
+    border: 2px yellow;
+    color: white;
+}
+
+#servicos {
+    background:#0000FF;
+    border: 2px yellow;
+    color: white;  
+}
+
+.bg-footer {
+    background: black;
+    color: white;
+}
