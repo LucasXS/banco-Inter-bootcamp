@@ -1,0 +1,63 @@
+:root{
+    --red: #E50914;
+    --black: #141414;
+    --whiteMenu: #AAA;
+    --whiteMenuHover: #fff;
+}
+
+/*------------RESET------------------*/
+* {
+    margin: 0;
+    padding: 0;    
+    /* as caixas terão as mesmas dimensoes q foram definidas por mim*/
+    box-sizing: border-box; 
+}
+/*------------MENU------------------*/
+
+/*------------BODY------------------*/
+body {
+    background: var(--black);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+/*------------HEADER------------------*/
+header .container{
+    display: flex; /*Joga tudo para a linha = flex-direction: row;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 8px;
+    color: var(--red);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--whiteMenu);
+    margin: 10px;
+}
+
+header nav a:hover {
+    color: var(--whiteMenuHover);
+}
+
+/*------------MAIN MOVIE-----------------*/
+.main-movie {
+    font-size: 16px;
+    /*linear cria uma cama fina sobre a imagem - melhora o constraste*/
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-house.png');   
+
+
+    height: 400px;
+    /*Pega a area de cobertura da caixa*/
+    background-size: cover;
+}
+
+
+
+
+/*------------FOOTER-----------------*/
