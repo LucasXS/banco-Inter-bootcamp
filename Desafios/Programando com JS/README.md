@@ -1,4 +1,4 @@
-#DESAFIOS - PROGRAMANDO COM JS
+# DESAFIOS - PROGRAMANDO COM JS
 
 Projeto referente ao curso "Programando com JS" da [Digital Innovation One](https://digitalinnovation.one/).
 
