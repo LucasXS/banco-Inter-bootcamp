@@ -1,47 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/styles.css">
+
+    <!--RESPONSIVIDADE-->
+    <link rel="stylesheet" href="style/responsive.css"
+
+    <!--OWL-CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
     <title>DOGLIX</title>
 </head>
 <body>
     <header>
         <div class="container"> <!-- Classes Wrapper -->
-            <h2 class="logo">DOGFLIX</h2>
-            <nav> <!--Alt + shit seta para baixo DUPLICA-->
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
-            </nav>
+            <div class="container-main-menu">
+                <h2>
+                    <a class="logo" href="#">DOGFLIX</a> 
+                </h2> 
+                <nav> <!--Alt + shit seta para baixo DUPLICA-->
+                    <a href="#">Inicio</a>
+                    <a href="#">Séries</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Documentários</a>
+                </nav>
+            </div>  
+            <div>
+                <img class="icon_netflix" src="/img/icons/icon_netflix.png" />     
+            </div>                           
         </div>
     </header>
 
     <main>
         <div class="main-movie">
             <div class="container">
-                <h3 class="title">HOUSE OF CARDS</h3>
-                <p class="description">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.                    
+                <h3 class="title">SEMPRE AO SEU LADO</h3>
+                <p class="description">Professor universitário encontra na estação de trem um filhote de cachorro da raça Akita, conhecida por sua lealdade. O cão passa a acompanhá-lo até a estação de trem e esperar sua volta. Até que um acontecimento inesperado altera sua vida.<span id="more"></span>                
                 </p>
                 <div>
-                    <button role="button" class="btn-menu">
+                    <button role="button" class="btn-menu" id="playVideo">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        ASSISTIR AGORA                                         
                     </button>
-                    <button role="button" class="btn-menu">
+                    <button role="button" class="btn-menu" id="moreInfo">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>           
         </div>
-    </main>
+    </main>  
 
-    <script src="https://kit.fontawesome.com/1647fbd656.js" crossorigin="anonymous"></script>
+    <h3 class="sub-title">SÓ LAGRIMA</h3>
+    <!--CARROSEL DOS FILMES LANÇAMENTOS -->
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <!--FILME 1---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/Juntos para Sempre.jpg" alt="first movie">
+            </div>             
+            <!--FILME 2---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/Sempre ao Seu Lado.jpg" alt="first movie">
+            </div>
+            <!--FILME 3---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/Quatro Vidas de um Cachorro.jpg" alt="first movie">
+            </div>
+            <!--FILME 4---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/aCaminhodeCasa.jpg" alt="first movie">
+            </div>
+            <!--FILME 5---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/MarleyEeu.jpg" alt="first movie">
+            </div>
+            <!--FILME 6---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/Togofilme.jpg" alt="first movie">
+            </div>
+            <!--FILME 7---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/UmaMenteCanina.jpg" alt="first movie">
+            </div>          
+            <!--FILME 8---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/Benji.jpg" alt="first movie">
+            </div>
+            <!--FILM 9---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/SCOOBY!.jpg" alt="first movie">
+            </div>
+            <!--FILME 10---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/BeverlyHillsChihuahua.jpg" alt="first movie">
+            </div>
+        </div>
+    </div>
 
+    <h3 class="sub-title">LANÇAMENTOS</h3>
+    <!--CARROSEL DOS FILMES LANÇAMENTOS -->
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <!--FILME 1---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/AIncrívelJornada.jpg" alt="first movie">
+            </div>             
+            <!--FILME 2---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/OMeuMelhorCompanheiro.jpg" alt="first movie">
+            </div>
+            <!--FILME 3---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/CUJO.jpg" alt="first movie">
+            </div>
+            <!--FILME 4---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/PetsUnidos.jpg" alt="first movie">
+            </div>
+            <!--FILME 5---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/IronWillO Grande Desafio.jpg" alt="first movie">
+            </div>
+            <!--FILME 6---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/The Adventures of Tintin.jpg" alt="first movie">
+            </div>
+            <!--FILME 7---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/Scooby-DooOMisterioComeca.jpg" alt="first movie">
+            </div>          
+            <!--FILME 8---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/Bud - O Cão Amigo.jpg" alt="first movie">
+            </div>
+            <!--FILM 9---------------->
+            <div class="item">
+                <img class="box-movie" src="img/secondCarousel/Underdog.jpg" alt="first movie">
+            </div>
+            <!--FILME 10---------------->
+            <div class="item">
+                <img class="box-movie" src="img/firstCarousel/BeverlyHillsChihuahua.jpg" alt="first movie">
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <script src="https://kit.fontawesome.com/1647fbd656.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script src="js/owl/scripts.js"></script>
 
 </body>
 </html>
